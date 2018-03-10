@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+
+<style>
+body,html {
+    height: 100%;
+    padding: 0px;
+    margin:0 auto;
+}
+
+.bg{ background-image: url("main.jpg");
+     height: 100%;
+     width: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-position:relative;
+     z-index:-1;
+     overflow-x: hidden;
+     background-size: cover;
+}
+#img1{
+    position: absolute;
+    top: 400px;
+    left: 490px;
+    right: 650px;
+    z-index:3;
+}
+#img2{
+    position: absolute;
+    top: 460px;
+    left: 445px;
+    right: 700px;
+    z-index:2;
+}
+#img3{
+    position: absolute;
+    top: 500px;
+    left: 490px;
+    right: 650px;
+    z-index:2;
+}
+#img4{
+    position: absolute;
+    top: 220px;
+    padding-bottom: 0px;
+    left: 600px;
+    right: 700px;
+    z-index:1;
+}
+.shadowfilter {
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    
+}
+.shadowfilter:hover {
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(47,79,79, 0.8));
+}
+.tw{
+    position: absolute;
+    top: 0px;
+    padding-left: 1000px;
+    right: 35px;
+    z-index: 1;
+}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<a href="#"><img src="img.png" width="150px" height="530px" id="img4"></a>
+<a href="Login.html"><img src="wood31.png" width="380px" height="150px" id="img1" class="shadowfilter"></a>
+<a href="Signup.html"><img src="wood32.png" width="380px" height="150px" id="img2" class="shadowfilter"></a>
+<a href="Leaderboard.html"><img src="wood34.png" width="380px" height="170px" id="img3" class="shadowfilter"></a>
+<div class="tw"><img src="tweety.gif"></div>
+</body>
+</html>
