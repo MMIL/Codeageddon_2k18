@@ -13,14 +13,14 @@ input{
   z-index: 1;
 }
 
-body {
+/*body {
   background: #1A237E;
   padding: 100px;
   overflow-x: hidden;
   margin: 0 !important;
   padding: 0 !important;
   overflow: hidden !important;
-}
+}*/
 .overlay{
     position: fixed;
     display: block;
@@ -452,7 +452,7 @@ input.form-control {
     border: none;
     border-bottom: 1px solid whitesmoke;
     border-radius: 0px;
-    color: white;
+    color: #1a237e;
 }
 .forms{
   padding: 4% 4%;
